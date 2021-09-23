@@ -1,12 +1,6 @@
-import 'dart:async';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/pages/core_page.dart';
-import 'package:flutter_application_1/pages/login_page.dart';
-import 'package:flutter_application_1/services/authentication.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:page_transition/page_transition.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -14,7 +8,6 @@ class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
-//learned
 
 class _SplashScreenState extends State<SplashScreen> {
   @override
@@ -39,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
             children: [
               RichText(
                 text: TextSpan(
-                    text: 'Art',
+                    text: 'App',
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
@@ -47,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     ),
                     children: <TextSpan>[
                       TextSpan(
-                        text: 'Stick',
+                        text: 'Name',
                         style: TextStyle(
                           color: Colors.blueAccent,
                           fontWeight: FontWeight.bold,
@@ -78,3 +71,4 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
+
