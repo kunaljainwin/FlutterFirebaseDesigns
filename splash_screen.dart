@@ -34,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 text: TextSpan(
                     text: 'App',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.red,
                       fontWeight: FontWeight.bold,
                       fontSize: 30.0,
                     ),
