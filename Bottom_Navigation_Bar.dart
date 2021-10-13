@@ -1,7 +1,4 @@
 
-
-
-
 class CorePage extends StatefulWidget {
   const CorePage({Key? key}) : super(key: key);
 
